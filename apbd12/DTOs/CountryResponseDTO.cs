@@ -2,5 +2,5 @@
 
 public class CountryResponseDTO
 {
-    
+    public string Name {get;set;}
 }

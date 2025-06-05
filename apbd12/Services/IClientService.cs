@@ -1,6 +1,6 @@
 ﻿namespace apbd12.Services;
 
-public class IClientService
+public interface IClientService
 {
-    
+    public Task DeleteClient(CancellationToken token, int id);
 }
